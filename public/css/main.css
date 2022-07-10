@@ -1,0 +1,118 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+
+:root {
+  --main-color: #262223;
+  --sub-color: #ddc6b6;
+}
+
+body {
+  font-family: 'nanumsquare', monospace;
+  background: #353031;
+  height: 100vh;
+}
+
+.nav-container {
+  width: 100%;
+  height: 65px;
+  background: var(--main-color);
+  color: var(--sub-color);
+  display: flex;
+}
+
+.nav-container .nav-menu {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-container .title {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.nav-menu-items {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-menu-items li a {
+  color: var(--sub-color);
+}
+.nav-menu-items li a:hover {
+  color: #feede0;
+}
+
+/* 메인 컨텐츠 */
+.main-container {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main-content {
+  color: var(--sub-color);
+}
+
+.main-content p {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.main-content h2 {
+  font-size: 50px;
+}
+
+.text-highlight {
+  background: #524c46;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  padding: 5px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: var(--sub-color);
+  color: var(--main-color);
+}
+
+.btn:hover {
+  background-color: #feede0;
+}
+
+.write-btn {
+  margin-top: 30px;
+  font-size: 25px;
+  transition: all 0.5s;
+}
+
+.main-image {
+  display: block;
+  position: absolute;
+  width: 500px;
+  bottom: -250px;
+  right: 100px;
+}
+
+.fade-in-animation {
+  animation-duration: 3s;
+  animation-name: fade-in;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
