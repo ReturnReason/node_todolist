@@ -11,13 +11,8 @@ node, ejs로 to do list 웹 사이트 만들기
 - list 페이지에서 저장한 할일 목록 db에서 불러온 후 화면에 저장했던 목록 보여주기
 
 ## preview ▼
-2022.07.11
-![Honeycam 2022-07-11 03-06-49](https://user-images.githubusercontent.com/48672106/178156786-a9ba73ab-5fa7-4029-89e7-686808e5b9cc.gif)
+![Honeycam 2022-07-12 01-41-57](https://user-images.githubusercontent.com/48672106/178314998-f89f01f2-d1b8-440a-9296-cae53dafffcd.gif)
 
-![Honeycam 2022-07-11 03-08-54](https://user-images.githubusercontent.com/48672106/178156878-a2faccdf-c7ea-4047-9ace-3dd015b6645e.gif)
 
-- writing 페이지에서 할 일 저장
-2022.07.12![Honeycam 2022-07-12 01-31-56](https://user-images.githubusercontent.com/48672106/178313962-d4f88946-8b64-4d86-b800-2769c0eeee37.gif)
-
-- list 페이지 접속
-![Honeycam 2022-07-12 01-32-43](https://user-images.githubusercontent.com/48672106/178313978-446d3a22-3b2b-4dbd-a324-246b089365eb.gif)
+[해야 하는 것]
+- 수정, 삭제 버튼 구현하기
