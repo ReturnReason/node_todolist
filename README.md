@@ -17,15 +17,19 @@ node, ejs로 to do list 웹 사이트 만들기
 - 추가한 할 일 데이터에 유니크 키 부여
 - 삭제 버튼 클릭시 해당하는 할 일의 키 번호를 찾아서 DB에서 해당 데이터 삭제
 
+[2022.07.31]
+- 수정 버튼 클릭시 해당 할일의 수정 페이지로 이동
+
 ## preview ▼
 
 ![Honeycam 2022-07-12 01-41-57](https://user-images.githubusercontent.com/48672106/178314998-f89f01f2-d1b8-440a-9296-cae53dafffcd.gif)
 
 ![Honeycam 2022-07-14 21-33-41](https://user-images.githubusercontent.com/48672106/178984244-fd809fc5-7723-4a29-95cb-e1dd8cb955f8.gif)
 
+![Honeycam 2022-07-31 19-47-15](https://user-images.githubusercontent.com/48672106/182022573-8532410b-c429-4a3a-a374-d7ed29fedfc9.gif)
+
 
 [해야 하는 것]
-- 수정 기능 구현하기
 - form 전송시 필수값(제목) 공백일 때 경고 모달 띄우기
 - form 에서 작성한 날짜가 현재보다 이전인 경우 처리하기
 - 삭제할 때 정말 삭제할 것인지 물어보기
