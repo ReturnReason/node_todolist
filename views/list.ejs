@@ -11,16 +11,7 @@
   </head>
   <body>
     <div>
-      <nav class="nav-container">
-        <div class="nav-menu">
-          <h1 class="title">TO DO LIST</h1>
-          <ul class="nav-menu-items">
-            <li><a href="/">HOME</a></li>
-            <li><a href="/writing">WRITE</a></li>
-            <li><a href="/to-do-list">LIST</a></li>
-          </ul>
-        </div>
-      </nav>
+      <%- include('nav.html') %>
 
       <div class="main-container">
         <h2 class="list-title">할 일 리스트</h2>
@@ -52,6 +43,10 @@
           .fail((err) => {
             console.log('삭제 실패');
           });
+      });
+
+      $('.btn-modify').click((e) => {
+        window.location.href = `/modification/${e.target.parentElement.dataset.id}`;
       });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
